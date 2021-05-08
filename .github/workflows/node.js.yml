@@ -25,15 +25,14 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm install -g react-scripts
-    - run: npm install -g gh-pages
-    - run: npm run build --if-present
+    - run: yarn install
+    - run: yarn build
 
     - name: Deploy
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
+        echo https://${github_token}@github.com/${repository}
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
       env:
