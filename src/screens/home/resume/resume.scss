@@ -1,0 +1,89 @@
+.resume {
+  padding-top: 90px;
+  padding-bottom: 72px;
+
+  h1 {
+    font: bold 18px/24px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font: bold 25px/30px "Open Sans", sans-serif;
+  }
+}
+.resume__item {
+  text-align: left;
+  &__title h1 {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+    display: inline;
+  }
+
+  &__body {
+    > div {
+      .item__info {
+        font: 16px/24px;
+        color: #6e7881;
+        margin-bottom: 18px;
+        margin-top: 9px;
+
+        span:first-child {
+          font-style: italic;
+          padding-right: 10px;
+          &:after {
+            content: "•";
+            margin-left: 10px;
+          }
+        }
+      }
+      p {
+        font: 15px "Open Sans";
+        margin: 0 0 30px 0;
+        color: #838c95;
+      }
+    }
+  }
+}
+.skill {
+  margin-top: 36px;
+  list-style: none;
+  padding: 0;
+}
+.skill__item {
+  position: relative;
+  margin-bottom: 40px;
+  background: #ccc;
+  height: 20px;
+  border-radius: 3px;
+
+  em {
+    font: 15px "opensans-bold", sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -26px;
+  }
+
+  span {
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    background-color: #313131;
+    transition: width 1s;
+  }
+}
+
+.aos-init .skill__item span {
+  width: 0;
+}
+.aos-init.aos-animate .skill__item {
+  @for $i from 1 through 5 {
+    .level-#{$i} {
+        width: percentage($i*0.2);
+    }
+  }
+}

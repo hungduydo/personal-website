@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+  ul {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    li {
+      display: inline-block;
+      line-height: 55px;
+      a {
+        color: white;
+      }
+    }
+  }
+}

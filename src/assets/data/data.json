@@ -1,0 +1,100 @@
+{
+  "firstName": "Hung",
+  "lastName": "Do Duy",
+  "title": "Senior Software Engineer",
+  "experienceYear": 8,
+  "description": "Software engineer with 6+ years of experience in Front-end and Moblie develop. Fast to learn, good in logic thinking and ready to help. Seek a further IT career by mastering the MEAN stack and software development workflow.",
+  "info": {
+    "genre": 1,
+    "address": "80 Diệp Minh Châu, Tân Sơn Nhì, Tân Phú, TP HCM",
+    "email": "duyhung01247@gmail.com",
+    "phone": "0356137845",
+    "birth": "26/01/1989",
+    "status": 0
+  },
+  "experiences": [
+    {
+      "company": "Nash Tech",
+      "title": "Senior Software Engineer",
+      "from": "01/2020",
+      "description":"ODC for Singapore Client\r\nResponse :\r\n- Follow SCRUM process for implement requirement sent by customer\r\n- Code\/Review\/Assign task for front-end team\r\n- Contribute ideas to customer features\r\nAchieve :\r\n- Reduce package size 30%, reduce FMP time over 50% and improve speed load component.\r\n- Get respect from custom about code quality, code speed and proactives.\r\n- Help company get 2 projects from client."
+    },
+    {
+      "company": "Bạch Tuộc Số",
+      "title": "Senior Software Engineer",
+      "from": "10/2017",
+      "to": "01/2020",
+      "description":"Main responsibilities:\r\n- Using Angular 2+ framework to develop web application.\r\n- Debug and fix bug for Nodejs server side.\r\n- Using HTML\/CSS to layout application like design.\r\n- Using git to management source code.\r\n- Guild new member.\r\n\r\nProjects:\r\n- Kingcurrency: Web Application for buy\/sell cryptor currency.\r\n- Oneway Radio: Make web site listen radio online.\r\n\r\nAchievements and skills gained:\r\n- Experience about Angular 2+.\r\n- Improve&nbsp;HTML\/CSS.\r\n- Improve git skill.\r\n- Improve coding style."
+    },
+    {
+      "company": "Global Cybersoft",
+      "title": "Software Engineer",
+      "from": "08/2013",
+      "to": "09/2017",
+      "description":"Front-end developer\r\nMain responsibilities:\r\n- Using Angular framework to implement web application.\r\n- Using Java Spring Hibernate\/JPA to connect database.\r\n- Using HTML\/CSS to layout application like design.\r\n- Using git to management source code.\r\n- Perform website maintenance and enhancements.\r\n\r\nProjects:\r\n- Virdict: Web Application for track train status and management train information.\r\n- Interview tool: Web app support interviewer and manager interviewee.\r\n\r\nAchievements and skills gained:\r\n- Experience about Angularjs.\r\n- Improve Spring MVC, Spring Boot skill.\r\n- Improve git skill.\r\n- Improve database skill.\r\n- Improve coding style.\r\nSTB Webkit Application\r\nMain responsibilities:\r\n- Using google closure for compress code.\r\n- Improve HTML\/CSS skill.\r\n- Improve git skill."
+    },
+    {
+      "company": "ABSoft",
+      "title": "iOS Developer",
+      "from": "04/2012",
+      "to": "07/2013",
+      "description":"Main responsibilities:\r\n- Get requirements from the management and development of applications\r\n- Feedback about the features of the software\r\n- Develop App for sell on Appstore\r\n- Develop App with request of manager\r\n- Test , fix bug and manage leaks in Ios App\r\nProject participants\r\n- Cases Counter\r\n- Game Eagle Eye (available on the AppStore)\r\n- Blue Bunny (Game for kids)\r\n- Kurtulus Partners (available on the AppStore)\r\n- Time Stamp"
+    }
+  ],
+  "education": {
+    "school": "Ho Chi Minh University Of Science",
+    "degree": "Bachelor",
+    "major": "Infomation Technology",
+    "achieve": ""
+  },
+  "skills": [
+    "Mongodb",
+    "Bootstrap",
+    "Angular 2",
+    "HTML",
+    "CSS",
+    "Nodejs",
+    "Jquery",
+    "Git",
+    "Gitlab CI",
+    "Oop Design Pattern",
+    "Typescript",
+    "Sass",
+    "Jest",
+    "ReactJS",
+    "Javascript",
+    "Scrum Development Cycle",
+    "Git Source Control"
+  ],
+  "language": [
+    {
+      "name": "English",
+      "level": 3
+    },
+    {
+      "name": "Tiếng Việt",
+      "level": 4
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "org": "Amazon Inc",
+      "year": "2021"
+    },
+    {
+      "name": "CompTIA A+",
+      "org": "CompTIA Inc",
+      "year": "2021"
+    }
+  ],
+  "reference": [
+    {
+      "name": "Some one",
+      "title": "CEO some where",
+      "company": "Global Cybersoft",
+      "phone": "0356137845",
+      "email": "duyhung01247@gmail.com"
+    }
+  ]
+}

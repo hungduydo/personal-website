@@ -1,0 +1,41 @@
+.about {
+  background: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__wapper {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row;
+}
+.about__picture {
+  width: 25%;
+  flex-shrink: 0;
+  text-align: left;
+}
+.about__picture > img {
+  width: 120px;
+  height: 120px;
+}
+.about__info {
+  text-align: left;
+}
+.info__tab > h2 {
+  font: bold 22px/30px "Open Sans", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.info__tab > p {
+  line-height: 30px;
+  color: #7a7a7a;
+  > span {
+    display: block;
+    svg {
+      width: 20px !important;
+      color: white;
+      margin-right: 0.5em;
+    }
+  }
+}
